@@ -37,9 +37,6 @@
                                     <td class="py-4 px-6">
                                         {{ $user->email }}
                                     </td>
-                                    <td class="py-4 px-6">
-                                        {{ $user->pasword }}
-                                    </td>
                                 </tr>
                             @endforeach
                             </tbody>
