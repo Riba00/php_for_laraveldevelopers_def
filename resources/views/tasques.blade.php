@@ -30,15 +30,15 @@
                             <tbody>
                             @foreach($tasques as $tasca)
                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                <td class="py-4 px-6"><?= $tasca->id; ?></td>
+                                <td class="py-4 px-6">{{ $tasca->id }}</td>
                                 <td class="py-4 px-6">
-                                        <?= $tasca->title; ?>
+                                        {{ $tasca->title }}
                                 </td>
                                 <td class="py-4 px-6">
-                                        <?= $tasca->description; ?>
+                                        {{ $tasca->description }}
                                 </td>
                                 <td class="py-4 px-6">
-                                        <?= $tasca->completed; ?>
+                                        {{ $tasca->completed }}
                                 </td>
                             </tr>
                             @endforeach
